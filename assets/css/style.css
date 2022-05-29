@@ -1,0 +1,154 @@
+/*FONTS*/
+
+/* Roboto + Oswald*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@100;300;400;500;600&display=swap');
+
+
+*{
+	box-sizing: border-box;
+}
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+body{
+	margin: 0;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-style: normal;
+}
+
+.container{
+	width: 100%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+
+/*HEADER*/
+
+.header{
+	background-color: #413A35;
+	height: 15vh;
+	padding-top: 5px;
+	position: relative;
+}
+
+.header .container{
+	display: flex;
+	justify-content: space-between;
+}
+/* header logo */
+.header__logo{
+	flex-basis: 25%;
+	display: flex;
+	align-items: center;
+}
+.header__logo-icon{
+	margin-right: 4%;
+}
+.logo__text{
+}
+/* header info */
+.header__info{
+	flex-basis: 70%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__info span{
+	
+	color: #fff;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 15px;
+
+	position: relative;
+}
+
+.header__info i{
+	font-size: 15px;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	right: 105%;
+	transform: translate3d(0, -50%, 0);
+
+
+}
+
+.header__info span:last-child{
+
+	font-size: 27px;
+}
+.header__info span:last-child i{
+	font-size: 25px;
+	
+}
+
+/*NAV*/
+/*header nav*/
+.header__nav{
+	background-color: #FFC501;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+
+	position: absolute;
+	z-index: 2;
+	bottom: -60%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+}
+.header__nav ul{
+	display: flex;
+	flex-basis: 70%;
+}
+.header__nav li{
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: 400;
+	color: #312C21;
+	text-transform: uppercase;
+	padding: 0 3% 0 3%;
+	border-right: 1px solid #312C21;
+}
+.header__nav li:first-child{
+	padding-left: 0;
+}
+.header__nav li:last-child{
+	padding-right: 0;
+	border-right: none;
+}
+.header__nav a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.header__nav--callback{
+	border: 1px solid #312C21;
+	padding: 20px 30px;
+}
+.header__nav--callback i{
+	font-size: 20px;
+	margin-right: 10px;
+}
+.header__nav--callback a{
+	color: #312C21;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* PREVIEW */
+
+.preview{
+	width: 100%;
+	background: url(../img/bg.png) center no-repeat;
+	background-size: cover;	
+}
