@@ -1,8 +1,7 @@
 /*FONTS*/
 
-/* Roboto + Oswald*/
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@100;300;400;500;600&display=swap');
-
+/* Roboto + Oswald + Raleway + Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&family=Oswald:wght@400;500;600&family=Raleway:wght@100;400;500;700&family=Roboto:wght@100;300;400;500&display=swap');
 
 *{
 	box-sizing: border-box;
@@ -19,165 +18,108 @@ h1,h2,h3,h4,h5,h6{
 body{
 	margin: 0;
 	font-family: 'Roboto';
-	font-weight: 300;
 	font-style: normal;
+	color: #181818;
 }
 
 .container{
 	width: 100%;
-	max-width: 90%;
+	max-width: 80%;
 	margin: 0 auto;
 }
-
-
-/*HEADER*/
-
+/* HEADER */
 .header{
-	background-color: #413A35;
-	/*height: 15vh;*/
-	padding: 50px 0;
-	padding-top: 5px;
+	padding: 25px 0 10px 0;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
 	position: relative;
 }
-
 .header .container{
 	display: flex;
-	justify-content: space-between;
-}
-/* header logo */
-.header__logo{
-	flex-basis: 25%;
-	display: flex;
-	align-items: center;
-}
-.header__logo-icon{
-	margin-right: 4%;
-}
-.logo__text{
-}
-/* header info */
-.header__info{
-	flex-basis: 70%;
-	
-	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.header__info span{
-	
-	color: #fff;
-	font-weight: 500;
-	font-size: 15px;
-	line-height: 15px;
 
-	position: relative;
-}
-
-.header__info i{
-	font-size: 15px;
-	position: absolute;
-	z-index: 1;
-	top: 50%;
-	right: 105%;
-	transform: translate3d(0, -50%, 0);
-
+.logo{
 
 }
-
-.header__info span:last-child{
-
-	font-size: 27px;
-	margin-right: 40px;
-}
-.header__info span:last-child i{
-	font-size: 25px;
-	
-}
-
-/*NAV*/
-/*header nav*/
-.header__nav{
-	background-color: #FFC501;
-	width: 90%;
-	/*height: 90%;*/
-
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	
-
-	position: absolute;
-	z-index: 2;
-	bottom: -80%;
-	left: 50%;
-	transform: translate3d(-50%, -50%, 0);
-}
-.header__nav ul{
-	margin: 20px 0px 20px 40px;
-	display: flex;
-	flex-basis: 50%;
-
-}
-.header__nav li{
-	list-style-type: none;
-	font-size: 20px;
+.header__nav ul li{
+	display: inline;
+	text-transform: uppercase;
+	font-family: 'Raleway';
 	font-weight: 400;
-	color: #312C21;
-	/*text-transform: uppercase;*/
-	padding: 0 3% 0 3%;
-	border-right: 1px solid #312C21;
+	font-size: 18px;
+	padding-left: 30px;
 }
-.header__nav li:first-child{
-	padding-left: 3%;
-}
-.header__nav li:last-child{
-	padding-right: 0;
-	border-right: none;
+.header__nav ul li:first-child{
+		padding: 0;
 }
 .header__nav a{
 	text-decoration: none;
 	color: inherit;
 }
-
-.header__nav--callback{
-	border: 1px solid #312C21;
-	padding: 15px 30px;
-	margin: 20px 40px 20px 0;
+.header__number i{
+	margin-right: 5px;
 }
-.header__nav--callback i{
-	font-size: 20px;
-	margin-right: 10px;
+.header__number{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	text-transform: uppercase;
 }
-.header__nav--callback a{
-	color: #312C21;
-	text-decoration: none;
-	font-size: 20px;
+/* header__info */
+.header__info{
+	position: absolute;
+	top: 15px;
+	right: 10%;
+	width: auto;
+}
+.header__info li{
+	display: inline;
+	color: #3E3E3E;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 15px;
+	margin-right: 50px;
+	
+}
+.header__info li:last-child{
+	margin-right: 0;
+}
+.header__info i{
+	margin-right: 8px;
 }
 
-/* PREVIEW */
-
+/* preview  */
 .preview{
+	height: 80vh;
+	background: url(../img/header-bg.jpg) center no-repeat;
+	background-size: cover;
 
-	height: 80vh;	
-	background: url(../img/bg.png) center no-repeat;
-	background-size: cover;	
+
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+
 .slider{
-	width: 60%;
+
+	width: 80%;
 	height: auto;
-	padding: 50px 50px;
+	padding: 100px 100px;
 	/*background-color: #333;*/
-	background: rgba(51, 51, 51, 0.54);
+	background: rgba(45, 48, 52, 0.65);
+	background: rgba(1, 1, 0, 0.54);
+
 	color: #fff;
+
 	font-family: 'Oswald';
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: center;
 }
 .slider-title{
 	font-weight: 500;
@@ -190,9 +132,12 @@ body{
 	font-size: 30px;
 	line-height: 44px;
 }
+.slider-subtitle-sub{
+	font-size: 25px;
+}
 .slider-btn{
 	display: inline-block;
-	color: #312C21;
+	color: #181818;
 	background-color: #FFC501;
 	font-family: 'Roboto';
 	font-weight: 600;
