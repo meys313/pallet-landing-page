@@ -42,6 +42,11 @@ body{
 .logo{
 
 }
+.header__nav-sidebar{
+	color: #181818;
+	font-size: 30px;
+	display: none;
+}
 .header__nav ul li{
 	display: inline;
 	text-transform: uppercase;
@@ -109,9 +114,8 @@ body{
 
 	width: 80%;
 	height: auto;
-	padding: 100px 100px;
+	padding: 3% 3%;
 	/*background-color: #333;*/
-	background: rgba(45, 48, 52, 0.65);
 	background: rgba(1, 1, 0, 0.54);
 
 	color: #fff;
@@ -120,6 +124,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	justify-content: center;
 }
 .slider-title{
 	font-weight: 500;

@@ -1,0 +1,31 @@
+@media(max-width: 700px){
+	/*container*/
+	.container{
+		max-width: 90%;
+	}
+
+	/*HEADER*/
+	.header__number{
+	
+	}
+	/*preview*/
+	.slider{
+
+	}
+	.slider-title{
+		font-size: 30px;
+		margin-top: 50px;
+
+		}
+	.slider-subtitle{
+		font-size: 20px;
+		}
+	.slider-subtitle-sub{
+		font-size: 18px;
+		}
+	
+	.slider-btn{
+		padding: 20px 40px;
+		font-size: 18px;
+	}
+}

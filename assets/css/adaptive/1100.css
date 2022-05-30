@@ -1,0 +1,36 @@
+@media(max-width: 1200px){
+	/*HEADER*/
+
+	.logo img{
+		width: 70%;
+	}
+	/*header nav*/
+	.header__nav ul li{
+		font-size: 13px;
+	}
+	.header__number {
+		font-size: 18px;
+	}
+
+	/*header info*/
+	.header__info li {
+		font-size: 10px;
+		margin-right: 20px;
+	}
+
+
+	/*preview*/
+	.slider-title{
+			font-size: 30px;
+	}
+	.slider-subtitle{
+		font-size: 22px;
+	}
+	.slider-subtitle-sub{
+		font-size: 18px;
+		}
+	.slider-btn{
+		padding: 15px 40px;
+	}
+
+}

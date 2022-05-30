@@ -1,0 +1,38 @@
+@media(max-width: 1000px){
+	/*HEADER*/
+
+	.logo img{
+		width: 80%;
+	}
+	.header__nav-sidebar{
+		display: block;
+	}
+	.header__nav{
+		display: none;
+	}
+	.header__info{
+		display: none;
+	}
+
+	/*preview*/
+	.preview{
+
+		background: #fff;
+	}
+	.slider{
+		background: inherit;
+		color: #181818;
+	}
+	.slider-title{
+		line-height: 50px;
+		}
+	.slider-subtitle{
+		
+		}
+	.slider-subtitle-sub{
+		
+		}
+	.slider-btn{
+		
+	}
+}
