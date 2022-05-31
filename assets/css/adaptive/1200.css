@@ -1,3 +1,29 @@
+@media(max-width: 1240px){
+	/*ABOUT US*/
+	.about{
+		justify-content: space-around;
+	}
+	.about__item{
+		width: 34%;
+		height: auto;
+	}
+	.about__item:nth-child(3), .about__item:nth-child(4){
+		margin-top: 40px;
+	}
+	.about__text{
+		justify-content: space-around;
+		align-items: center;
+	}
+	.about-description{
+		height: 35%;
+		font-size: 20px;
+	}
+	/*ABOUT*/
+	.about__item:before {
+		top: 47%;
+	}
+
+}
 @media(max-width: 1200px){
 	/*HEADER*/
 
@@ -25,4 +51,5 @@
 		padding: 20px 50px;
 		font-size: 18px;
 	}
+
 }

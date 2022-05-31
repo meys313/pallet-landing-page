@@ -28,4 +28,8 @@
 		padding: 20px 40px;
 		font-size: 18px;
 	}
+	/*SECTION*/
+	.section__title{
+		font-size: 20px;
+	}
 }

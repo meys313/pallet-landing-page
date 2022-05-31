@@ -6,5 +6,38 @@
 		width: 100%;
 		padding: 0;
 	}
+
+	/*SECTION*/
+	.section__title{
+		text-align: center;
+	}
+
+	/*ABOUT US*/
+	.about{
+	}
+	.about__item{
+		width: 60%;
+		margin-top: 50px;
+	}
+	.about__item:nth-child(1){
+		margin-top: 0;	
+	}
+	.about__item:before{
+		display: none;
+
+	}
+	.about__text{
+		
+	}
+	.about-title{
+		font-size: 24px;
+		text-align: center;
+	}
+	.about-description{
+		text-align: center;
+		line-height: 1.5;
+		font-size: 20px;
+	}
+
 	
 }

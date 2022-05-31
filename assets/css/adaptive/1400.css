@@ -29,4 +29,19 @@
 		font-size: 22px;
 		}
 
+
+	/*ABOUT US*/
+	.about{
+		justify-content: space-between;
+	}
+	.about__item{
+		width: 243px;
+		height: 243px;
+	}
+
+	.about-title{
+		font-size: 28px;
+	}
+	.about-description{}
+
 }

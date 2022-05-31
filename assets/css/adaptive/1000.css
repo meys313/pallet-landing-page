@@ -35,4 +35,57 @@
 	.slider-btn{
 		
 	}
+
+		/*ABOUT US*/
+	.about{
+		
+	}
+	.about__item{
+		
+	}
+	.about__item:nth-child(3), .about__item:nth-child(4){
+		
+	}
+	.about__item:before{
+		display: none;
+
+	}
+	.about__text{
+		
+	}
+	.about-title{
+		font-size: 24px;
+	}
+	.about-description{
+		font-size: 18px;
+	}
+
+	/*PALLET*/
+	.pallet{
+		justify-content: center;
+	}
+	.pallet__item{
+		margin-top: 100px;
+		width: 51%;
+	}
+	.pallet-img img{
+		width: 100%;
+	}
+	.pallet-title, .pallet-width{
+		font-size: 20px;
+	}
+	.pallet-cost{
+
+	}
+	.pallet-cost span{
+		font-size: 20px;
+	}
+
+	.pallet-cost-btn{
+		margin-top: 20px;
+		display: block;
+		text-align: center;
+		border-radius: 0;
+	}
+
 }

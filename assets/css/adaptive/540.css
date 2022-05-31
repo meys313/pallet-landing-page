@@ -1,0 +1,47 @@
+@media(max-width: 540px){
+
+
+	/*ABOUT US*/
+	.about{
+	}
+	.about__item{
+		width: 100%;
+	}
+	.about__item:nth-child(1){
+		
+	}
+	.about__item:before{
+		display: none;
+
+	}
+	.about__text{
+		justify-content: center;
+	}
+	.about-title{
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.about-description{
+		font-size: 25px;
+	}
+
+	/*PALLET*/
+	.pallet{
+		justify-content: normal;
+	}
+	.pallet__item{
+		width: 100%;
+		margin-top: 200px;
+	}
+	.pallet-title, .pallet-width{
+		font-size: 18px;
+	}
+	.pallet-description{
+		font-size: 14px;
+	}
+	.pallet-cost span{
+		font-size: 18px;
+	}
+
+}
