@@ -32,4 +32,27 @@
 	.section__title{
 		font-size: 20px;
 	}
+
+
+	/*PRODUCTION*/
+	.production__item{
+		text-align: center;
+	}
+	.production__text{
+		font-size: 17px;
+	}
+
+	.production-btn a{
+		
+		display: block;
+		margin:  0 auto;
+		font-size: 18px;
+		border-radius: 0;
+		width: 40%;
+		padding: 20px 0px;
+	}
+	.production-btn span{
+		margin-top: 10px;
+	}
+
 }

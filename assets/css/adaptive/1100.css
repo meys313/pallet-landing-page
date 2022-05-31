@@ -39,6 +39,19 @@
 
 	}
 
+	/*PRODUCTION*/
+	.production{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.production__item{
+		flex-basis: 100%;
+
+	}
+	.production__img{
+		display: none;
+	}
+
 	/*PALLET*/
 	.pallet{
 		justify-content: space-between;

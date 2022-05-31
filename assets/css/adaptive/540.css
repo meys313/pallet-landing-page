@@ -26,6 +26,11 @@
 		font-size: 25px;
 	}
 
+	/*PRODUCTION*/
+	.production-btn a {
+		width: 60%;
+	}
+
 	/*PALLET*/
 	.pallet{
 		justify-content: normal;

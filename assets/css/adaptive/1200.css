@@ -23,6 +23,16 @@
 		top: 47%;
 	}
 
+	/*PRODUCTION*/
+
+	.production__img{
+		width: 90%;
+	} 
+
+	.production__text{
+		font-size: 22px;
+	}
+
 }
 @media(max-width: 1200px){
 	/*HEADER*/
@@ -52,4 +62,16 @@
 		font-size: 18px;
 	}
 
+
+	/*PRODUCTION*/
+	.production__item .section__title{
+		margin-bottom: 40px;
+	}
+
+	.production__item:last-child{
+	align-items: flex-end;
+	}
+	.production-btn{
+		margin-top: 40px;
+	}
 }
