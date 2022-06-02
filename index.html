@@ -276,6 +276,41 @@
 			</div>
 		</div>
 	</section> <!-- pallet -->
+
+	<section class="section section--form">
+		<div class="container">
+			<div class="form__item">
+				<h2 class="section__title">
+					Получи бесплатную доставку
+					и уникальное предложение,
+					заполнив форму:
+				</h2>
+				<form action="#" class="form">
+					<p class="form__input-description">Ваше имя:</p>
+					<input class="form__input" type="text">
+
+					<p class="form__input-description">Ваш телефон</p>
+					<input class="form__input" type="tel" list="tel-list" placeholder="+7 (900) 123-45-67" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+
+					<p class="form__input-description">Комментарий:</p>
+					<!-- <input type="text" class="form__text"> -->
+					<textarea cols="30" rows="10" class="form__text"></textarea>
+
+					<div class="checkbox__wrapper">
+						<input type="checkbox" id="scales" name="scales" class="form__checkbox">
+	      				<label for="scales" class="form__label">
+	      					Согласен (-на) на обработку персональных данных
+	      				</label>
+					</div>
+					
+
+      				 <button type="submit" class="form__btn">Отправить</button>
+				</form>
+			</div>
+			<div class="form__item"><img src="assets/img/form.png" alt=""></div>
+			
+		</div>
+	</section>
 </body>
 </html>
 

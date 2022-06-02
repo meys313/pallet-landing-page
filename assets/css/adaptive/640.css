@@ -55,4 +55,9 @@
 		margin-top: 10px;
 	}
 
+	/*FORM*/
+	.form__item:first-child{
+		flex-basis: 100%;
+	}
+	
 }

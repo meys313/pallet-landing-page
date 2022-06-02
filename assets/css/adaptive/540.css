@@ -49,4 +49,19 @@
 		font-size: 18px;
 	}
 
+	/*FORM*/
+	.form__input-description{
+		font-size: 16px;
+	}
+	.form__input {
+		height: 50px;
+	}
+	.form__input, .form__text{
+		font-size: 16px;
+	}
+	.form__btn{
+		padding: 20px 0;
+		font-size: 16px;
+	}
+
 }

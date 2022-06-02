@@ -29,4 +29,23 @@
 	.pallet__item{
 		margin-top: 50px;
 	}
+
+	/*FORM*/
+	.form__item:first-child{
+		flex-basis: 80%;
+	}
+	.form__input-description{
+		font-size: 18px;
+	}
+	.form__checkbox {
+		width: 15px;
+		height: 15px;
+	}
+	.form__label {
+		font-size: 14px;
+	}
+	.form__btn {
+		width: 50%;
+		margin-top: 20px;
+	}
 }

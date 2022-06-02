@@ -88,4 +88,22 @@
 		border-radius: 0;
 	}
 
+
+	/*FORM*/
+	.form__item:first-child{
+		flex-basis: 90%;
+		margin: 0 auto;
+		
+	}
+	.form__item:last-child{
+		display: none;
+	}
+
+	.form__input-description{
+		font-size: 20px;
+	}
+	.form__btn {
+		width: 40%;
+	}
+
 }
