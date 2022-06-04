@@ -8,6 +8,13 @@
 	.header__number{
 	
 	}
+
+	/*HEADER BG*/
+	.car-bg{
+		width: 50%;
+		height: auto;
+	}
+
 	/*preview*/
 	.slider{
 

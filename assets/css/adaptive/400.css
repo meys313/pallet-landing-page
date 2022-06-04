@@ -1,7 +1,20 @@
+@media(max-width: 490px){
+	/*HEADER BG*/
+	.car-bg{
+		width: 60%;
+	}
+}
 @media(max-width: 400px){
 	/*FOOTER*/
 
 	.footer-logo{
 		width: 50%;
+	}
+}
+
+@media(max-width: 360px){
+	/*HEADER BG*/
+	.car-bg{
+		
 	}
 }

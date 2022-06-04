@@ -1,6 +1,19 @@
 @media(max-width: 1000px){
 	/*HEADER*/
 
+	/*HEADER BG*/
+	.container--preview{
+		position: relative;
+	}
+	.car-bg{
+		display: block;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	
+	}
+
+	/**/
 	.logo img{
 		width: 80%;
 	}
