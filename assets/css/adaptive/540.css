@@ -63,5 +63,39 @@
 		padding: 20px 0;
 		font-size: 16px;
 	}
+	/*FOOTER*/
+	.footer .container{
+		padding-top: 30px;
+	}
+	.footer__item:nth-child(2), .footer__item:nth-child(4){
+		flex-basis: 100%;
+	}
+	.footer__nav{
+		text-align: center;
+	}
+	.footer__nav ul li{
+		font-size: 14px;
+		display: inline-block;
+		margin: 0;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.footer__nav ul li:last-child{
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.footer__feedback-text{
+		/*font-size: 12px;*/
+	}
+	.footer__feedback-btn{
+		/*font-size: 18px;*/
+		width: 80%;
+	}
+	.footer__feedback-btn i{
+		/*font-size: 18px;*/
+	}
 
+	.footer__number {
+		/*font-size: 18px;*/
+	}
 }

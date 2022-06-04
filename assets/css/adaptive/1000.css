@@ -88,6 +88,15 @@
 		border-radius: 0;
 	}
 
+	.pallet-btn{
+		margin-top: 15%;
+	}
+	.pallet-btn a{
+		padding: 15px 0;
+		width: 51%;
+		border-radius: 0;
+	}
+
 
 	/*FORM*/
 	.form__item:first-child{
@@ -106,4 +115,49 @@
 		width: 40%;
 	}
 
+	/*FOOTER*/
+	.footer .container{
+		max-width: 90%;
+		flex-wrap: wrap;
+	}
+	.footer__item{
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.footer__item:first-child{
+		margin-bottom: 20px;
+	}
+	.footer-logo{
+		width: 30%;
+	}
+	.footer-copyright {
+		display: none;
+	}
+	.footer__nav ul li{
+		display: inline-block;
+		margin-right: 50px;
+		font-size: 18px;
+	}
+	.footer__info{
+		margin-top: 10px;
+	}
+	.footer__info ul li{
+		display: inline-block;
+		margin-right: 50px;
+		font-size: 14px;
+	}
+
+	.footer__feedback{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.footer__feedback-text{
+			font-size: 16px;
+		}
+	.footer__feedback-btn{
+		font-size: 20px;
+	}
+	.footer__feedback-btn i{
+		font-size: 20px;
+	}
 }

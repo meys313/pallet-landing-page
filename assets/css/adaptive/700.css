@@ -48,4 +48,33 @@
 		width: 50%;
 		margin-top: 20px;
 	}
+
+	/*FOOTER*/
+
+	.footer__item{
+		text-align: center;
+	}
+	.footer__item:nth-child(3){
+		order: 1;
+	}
+	.footer__item:nth-child(2), .footer__item:nth-child(4){
+		flex-basis: 50%;
+	}
+
+
+	.footer__nav{
+		text-align: start;
+	}
+	.footer__nav ul li{
+		display: block;
+	}
+	.footer__info ul li{
+		font-size: 10px;
+		margin: 10px 5px 10px 5px;
+	}
+
+	.footer__feedback-btn{
+		padding: 15px 0;
+		width: 100%;
+	}
 }

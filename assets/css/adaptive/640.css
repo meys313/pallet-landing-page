@@ -56,8 +56,7 @@
 	}
 
 	/*FORM*/
-	.form__item:first-child{
+	.form__item{
 		flex-basis: 100%;
 	}
-	
 }

@@ -56,4 +56,18 @@
 	.pallet{
 		justify-content: space-between;
 	}
+
+		/*FOOTER*/
+		.footer-logo{
+			width: 70%;
+	}
+		.footer__nav ul li{
+			font-size: 14px;
+		}
+		.footer__info li{
+			font-size: 12px;
+		}
+		.footer__feedback-text{
+			font-size: 12px;
+		}
 }

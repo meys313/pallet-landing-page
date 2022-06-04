@@ -33,6 +33,15 @@
 		font-size: 22px;
 	}
 
+	/*PALLET*/
+	.pallet-btn{
+
+	}
+	.pallet-btn a{
+		width: 30%;
+		font-size: 22px;
+	}
+
 }
 @media(max-width: 1200px){
 	/*HEADER*/
@@ -73,5 +82,26 @@
 	}
 	.production-btn{
 		margin-top: 40px;
+	}
+
+
+
+	/*FOOTER*/
+	.footer-logo{
+		width: 80%;
+		height: auto;
+	}
+	.footer__info i{
+	margin-right: 10px;
+	}
+	.footer__feedback-btn{
+		font-size: 18px;
+	}
+	.footer__feedback-btn i{
+		font-size: 18px;
+	}
+
+	.footer__number{
+		font-size: 20px;
 	}
 }

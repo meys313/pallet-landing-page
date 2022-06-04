@@ -44,5 +44,15 @@
 		align-items: normal;
 	}
 
+	/*PALLET*/
+	.pallet-btn{
+		display: none;
+	}
+
+	/*FOOTER*/
+	.footer__info ul li{
+		margin-right: 10px;
+	}
+
 	
 }
