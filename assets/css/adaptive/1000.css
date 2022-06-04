@@ -5,13 +5,13 @@
 	.container--preview{
 		position: relative;
 	}
-	.car-bg{
+	/*.car-bg{
 		display: block;
 		position: absolute;
 		right: 0;
 		bottom: 0;
-	
-	}
+
+	}*/
 
 	/**/
 	.logo img{
@@ -30,11 +30,16 @@
 	/*preview*/
 	.preview{
 
-		background: #fff;
+		/*background: #fff;*/
+	}
+	.container--preview{
+		max-width: 100%;
 	}
 	.slider{
-		background: inherit;
-		color: #181818;
+		background: rgba(1, 1, 0, 0.44);
+		color: #fff;
+		height: 100%;
+		width: 100%;
 	}
 	.slider-title{
 		line-height: 50px;
