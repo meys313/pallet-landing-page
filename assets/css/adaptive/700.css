@@ -6,6 +6,9 @@
 	}
 
 	/*preview*/
+	.container--preview{
+		max-width: 100%;
+	}
 	.slider{
 		
 	}
